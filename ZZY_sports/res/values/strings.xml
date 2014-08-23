@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">朱祝元--我爱俯卧撑</string>
+    <string name="action_settings">Settings</string>
+    <string name="sport_tips">座三圈右三拳，脖子扭扭屁股扭扭!</string>
+    <string name="title_activity_push_up_times_show">俯卧撑锻炼情况</string>
+    <string name="loadmore">加载更多</string>
+	<string name="loading">正在加载</string>
+</resources>

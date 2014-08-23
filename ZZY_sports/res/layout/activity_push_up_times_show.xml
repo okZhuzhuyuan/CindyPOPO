@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      >
+<Button 
+	        android:id="@+id/sport_user"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	         android:button="@null"
+	          android:background="@drawable/button_selector2"
+	          android:textColor="@color/white"
+	         android:text=""
+	        />
+   <com.example.zzy_sport.view.XListView
+            android:id="@+id/news_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:layout_below="@+id/sport_user"
+            android:cacheColorHint="#00000000"
+            android:divider="@drawable/form_list_divider_bg"
+            android:dividerHeight="0.2dip"
+            android:fastScrollEnabled="true"
+            android:focusable="true"
+            android:scrollbars="none"/>
+
+</RelativeLayout>

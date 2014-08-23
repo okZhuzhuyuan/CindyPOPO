@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/news_list"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="0px"
+    android:cacheColorHint="#00000000"
+    android:divider="#c8c8c8"
+    android:dividerHeight="1dip"
+    android:fastScrollEnabled="true"
+    android:focusable="true" />

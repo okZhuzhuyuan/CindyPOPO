@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<drawable name="form_list_divider_bg">#ffc2c8cd</drawable>
+	<drawable name="itemselector">#fffacd</drawable><!-- 柠檬绸色 -->
+	<drawable name="white">#FFFFFF</drawable>
+</resources>

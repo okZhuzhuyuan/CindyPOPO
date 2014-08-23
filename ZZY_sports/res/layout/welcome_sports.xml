@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+ 	
+    
+    <TextView
+        android:id="@+id/sport_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/sport_tips" />
+    <RelativeLayout  
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_centerHorizontal="true"
+         android:id="@+id/sport_name"
+         android:layout_below="@+id/sport_tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/skin_setting_strip_top_unpressed"
+        android:orientation="horizontal"
+        >
+        <EditText
+                    android:id="@+id/etAccount"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:maxLength="11"
+                    android:paddingLeft="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="5dp"
+                    android:hint="请输入您的昵称帐号"
+                    android:saveEnabled="true"
+                    android:singleLine="true" />
+
+                <ImageButton
+                    android:id="@+id/ibtnAccountMore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/etAccount"
+                    android:layout_alignRight="@+id/etAccount"
+                    android:layout_alignTop="@+id/etAccount"
+                    android:layout_marginRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/icon_account_more" />
+        
+    </RelativeLayout>
+    <Button 
+         android:id="@+id/nextpage"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/sport_name"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+         android:text="开始锻炼" 
+        />
+
+</RelativeLayout>
